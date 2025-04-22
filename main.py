@@ -37,5 +37,5 @@ subprocess.run(["git", "add", "."])
 subprocess.run(["git", "commit", "-m", commit_msg])
 subprocess.run(["git", "push", "origin", branch])
 
-# Print message to show end of program.
+# Print message to show end the of program.
 print('Git push command successful')
